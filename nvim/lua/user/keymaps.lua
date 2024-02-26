@@ -76,6 +76,7 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("n", "<leader>b", "<cmd>Telescope buffers<cr>", opts)
 
 keymap("n", "<leader>e", ":NvimTreeFindFileToggle<cr>", opts)
+keymap("n", "<A-t>", "<cmd>ToggleTerm<cr>", opts)
 
 -- keymap("n", "<leader>gg", ":LazyGit<cr>", opts)
 -- keymap("n", "<leader>tl", ":Telescope lazygit<cr>", opts)

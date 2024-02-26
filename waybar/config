@@ -1,8 +1,7 @@
 {
 	"layer": "top",
-	"modules-left": ["custom/launcher","cpu","memory","tray"],
-	"modules-center": ["hyprland/workspaces"],
-	"modules-right": ["custom/updates","custom/notification","pulseaudio","clock","custom/power"],
+	"modules-left": ["hyprland/workspaces","hyprland/window"],
+	"modules-right": ["tray","custom/notification","pulseaudio","cpu","memory","clock","custom/power"],
 	
 	"pulseaudio": {
 		"tooltip": false,
@@ -54,14 +53,9 @@
       "separate-outputs": true
     },
     "hyprland/workspaces": {
-        "format": "{icon} {name}",
+        "format": "{}",
         "on-click": "activate",
-        "format-icons": {
-            "active": "󰮯",
-            "default": "󰊠"
-        },
         "all-outputs": true,
-        "sort-by-number": true,
         "persistent-workspaces": {
             "*": 5
         },
@@ -88,4 +82,8 @@
       "on-click-right": "swaync-client -d -sw",
       "escape": true
     },
+    "hyprland/window": {
+      "format": " > {}",
+      "separate-outputs": true
+  }
 }
