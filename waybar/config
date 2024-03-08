@@ -1,7 +1,7 @@
 {
 	"layer": "top",
 	"modules-left": ["hyprland/workspaces","hyprland/window"],
-	"modules-right": ["tray","custom/notification","pulseaudio","cpu","memory","clock","custom/power"],
+	"modules-right": ["tray","custom/notification","pulseaudio","cpu","memory","clock","idle_inhibitor","custom/power"],
 	
 	"pulseaudio": {
 		"tooltip": false,
@@ -64,16 +64,17 @@
     },
     "custom/notification": {
       "tooltip": false,
+      "text-align": "center",
       "format": "{icon}",
       "format-icons": {
-        "notification": "<span foreground='red'><sup></sup></span>",
-        "none": "",
-        "dnd-notification": "<span foreground='red'><sup></sup></span>",
-        "dnd-none": "",
-        "inhibited-notification": "<span foreground='red'><sup></sup></span>",
-        "inhibited-none": "",
-        "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
-        "dnd-inhibited-none": ""
+        "notification": "<span foreground='red'><sup></sup></span>",
+        "none": "",
+        "dnd-notification": "<span foreground='red'><sup></sup></span>",
+        "dnd-none": "",
+        "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+        "inhibited-none": "",
+        "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+        "dnd-inhibited-none": ""
       },
       "return-type": "json",
       "exec-if": "which swaync-client",
@@ -85,5 +86,15 @@
     "hyprland/window": {
       "format": " > {}",
       "separate-outputs": true
-  }
+  },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "tooltip": true,
+        "format-icons":{
+            "activated": "",
+            "deactivated": ""
+        },
+        "on-click-right": "hyprlock"        
+    }
+
 }

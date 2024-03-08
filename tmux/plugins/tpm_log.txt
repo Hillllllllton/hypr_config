@@ -1,203 +1,40 @@
-[2024-02-26 13:54:47.070]	 List of discovered tpm plugins: arcticicestudio/nord-tmux tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
-[2024-02-26 13:54:47.080]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/install_plugins
-[2024-02-26 13:54:47.109]	 Installing "nord-tmux"
-[2024-02-26 13:54:47.109]	 Installing "tmux-prefix-highlight"
-[2024-02-26 13:54:47.109]	 Installing "tmux-copycat"
-[2024-02-26 13:54:47.110]	 Installing "tmux-cpu"
-[2024-02-26 13:54:47.110]	 Installing "tmux-resurrect"
-[2024-02-26 13:54:47.110]	 Installing "tmux-continuum"
-[2024-02-26 13:54:48.218]	   "tmux-prefix-highlight" download success
-[2024-02-26 13:54:48.220]	   "tmux-continuum" download success
-[2024-02-26 13:54:48.239]	   "tmux-cpu" download success
-[2024-02-26 13:54:48.328]	   "nord-tmux" download success
-[2024-02-26 13:54:48.349]	   "tmux-copycat" download success
-[2024-02-26 13:54:49.487]	   "tmux-resurrect" download success
-[2024-02-26 13:54:49.499]	 Done.
+[2024-03-08 17:37:39.776]	 List of discovered tpm plugins: arcticicestudio/nord-tmux tmux-plugins/tmux-prefix-highlight christoomey/vim-tmux-navigator tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-03-08 17:37:39.787]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-03-08 17:37:39.816]	 Installing "nord-tmux"
+[2024-03-08 17:37:39.817]	 Installing "tmux-prefix-highlight"
+[2024-03-08 17:37:39.817]	 Installing "tmux-copycat"
+[2024-03-08 17:37:39.817]	 Installing "vim-tmux-navigator"
+[2024-03-08 17:37:39.817]	 Installing "tmux-cpu"
+[2024-03-08 17:37:39.817]	 Installing "tmux-resurrect"
+[2024-03-08 17:37:39.818]	 Installing "tmux-continuum"
+[2024-03-08 17:37:40.899]	   "vim-tmux-navigator" download success
+[2024-03-08 17:37:40.921]	   "tmux-prefix-highlight" download success
+[2024-03-08 17:37:40.947]	   "tmux-cpu" download success
+[2024-03-08 17:37:40.957]	   "tmux-continuum" download success
+[2024-03-08 17:37:41.020]	   "nord-tmux" download success
+[2024-03-08 17:37:41.027]	   "tmux-copycat" download success
+[2024-03-08 17:37:42.186]	   "tmux-resurrect" download success
+[2024-03-08 17:37:42.197]	 Done.
 
-[2024-02-26 14:33:34.630]	 List of discovered tpm plugins: arcticicestudio/nord-tmux tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
-[2024-02-26 14:33:34.641]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/install_plugins
-[2024-02-26 14:33:34.675]	 Already installed "nord-tmux"
-[2024-02-26 14:33:34.675]	 Already installed "tmux-copycat"
-[2024-02-26 14:33:34.675]	 Already installed "tmux-prefix-highlight"
-[2024-02-26 14:33:34.675]	 Already installed "tmux-cpu"
-[2024-02-26 14:33:34.676]	 Already installed "tmux-continuum"
-[2024-02-26 14:33:34.676]	 Already installed "tmux-resurrect"
-[2024-02-26 14:33:34.688]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/update_plugins all
-[2024-02-26 14:33:34.929]	 List of discovered tpm plugins: arcticicestudio/nord-tmux tmux-plugins/tmux-prefix-highlight tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
-[2024-02-26 14:33:34.940]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/install_plugins
-[2024-02-26 14:33:34.972]	 Already installed "nord-tmux"
-[2024-02-26 14:33:34.973]	 Already installed "tmux-prefix-highlight"
-[2024-02-26 14:33:34.973]	 Already installed "tmux-cpu"
-[2024-02-26 14:33:34.973]	 Already installed "tmux-copycat"
-[2024-02-26 14:33:34.973]	 Already installed "tmux-resurrect"
-[2024-02-26 14:33:34.974]	 Already installed "tmux-continuum"
-[2024-02-26 14:33:34.985]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/update_plugins all
-[2024-02-26 14:33:34.705]	 Updating all plugins!
-[2024-02-26 14:33:34.705]	 
-[2024-02-26 14:33:35.477]	   "tmux-copycat" update success
-[2024-02-26 14:33:35.479]	     | Already up to date.
-[2024-02-26 14:33:35.485]	   "nord-tmux" update success
-[2024-02-26 14:33:35.488]	     | Already up to date.
-[2024-02-26 14:33:35.489]	   "tmux-prefix-highlight" update success
-[2024-02-26 14:33:35.490]	   "tmux-cpu" update success
-[2024-02-26 14:33:35.491]	   "tmux-resurrect" update success
-[2024-02-26 14:33:35.492]	     | Already up to date.
-[2024-02-26 14:33:35.492]	     | Already up to date.
-[2024-02-26 14:33:35.493]	     | Already up to date.
-[2024-02-26 14:33:35.528]	   "tmux-continuum" update success
-[2024-02-26 14:33:35.531]	     | Already up to date.
-[2024-02-26 14:33:35.542]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2024-02-26 14:33:35.587]	 Done.
-
-[2024-02-26 14:33:35.000]	 Updating all plugins!
-[2024-02-26 14:33:35.000]	 
-[2024-02-26 14:33:35.777]	   "tmux-prefix-highlight" update success
-[2024-02-26 14:33:35.777]	   "tmux-copycat" update success
-[2024-02-26 14:33:35.778]	   "nord-tmux" update success
-[2024-02-26 14:33:35.780]	     | Already up to date.
-[2024-02-26 14:33:35.781]	     | Already up to date.
-[2024-02-26 14:33:35.781]	     | Already up to date.
-[2024-02-26 14:33:35.786]	   "tmux-cpu" update success
-[2024-02-26 14:33:35.788]	     | Already up to date.
-[2024-02-26 14:33:35.789]	   "tmux-continuum" update success
-[2024-02-26 14:33:35.791]	     | Already up to date.
-[2024-02-26 14:33:35.799]	   "tmux-resurrect" update success
-[2024-02-26 14:33:35.801]	     | Already up to date.
-[2024-02-26 14:33:35.813]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2024-02-26 14:33:35.841]	 Removing "nord-tmux"
-[2024-02-26 14:33:35.844]	   "nord-tmux" clean success
-[2024-02-26 14:33:35.846]	 Removing "tmux-continuum"
-[2024-02-26 14:33:35.849]	   "tmux-continuum" clean success
-[2024-02-26 14:33:35.850]	 Removing "tmux-copycat"
-[2024-02-26 14:33:35.854]	   "tmux-copycat" clean success
-[2024-02-26 14:33:35.855]	 Removing "tmux-cpu"
-[2024-02-26 14:33:35.859]	   "tmux-cpu" clean success
-[2024-02-26 14:33:35.860]	 Removing "tmux-prefix-highlight"
-[2024-02-26 14:33:35.863]	   "tmux-prefix-highlight" clean success
-[2024-02-26 14:33:35.864]	 Removing "tmux-resurrect"
-[2024-02-26 14:33:35.870]	   "tmux-resurrect" clean success
-[2024-02-26 14:33:35.882]	 Done.
-
-[2024-02-26 15:27:53.546]	 List of discovered tpm plugins: arcticicestudio/nord-tmux tmux-plugins/tmux-prefix-highlight christoomey/vim-tmux-navigator tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
-[2024-02-26 15:27:53.556]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/install_plugins
-[2024-02-26 15:27:53.591]	 Installing "nord-tmux"
-[2024-02-26 15:27:53.591]	 Installing "tmux-prefix-highlight"
-[2024-02-26 15:27:53.591]	 Installing "vim-tmux-navigator"
-[2024-02-26 15:27:53.592]	 Installing "tmux-copycat"
-[2024-02-26 15:27:53.592]	 Installing "tmux-cpu"
-[2024-02-26 15:27:53.592]	 Installing "tmux-resurrect"
-[2024-02-26 15:27:53.592]	 Installing "tmux-continuum"
-[2024-02-26 15:27:54.674]	   "vim-tmux-navigator" download success
-[2024-02-26 15:27:54.732]	   "tmux-cpu" download success
-[2024-02-26 15:27:54.771]	   "tmux-copycat" download success
-[2024-02-26 15:27:54.785]	   "nord-tmux" download success
-[2024-02-26 15:27:54.903]	   "tmux-prefix-highlight" download success
-[2024-02-26 15:27:55.400]	   "tmux-continuum" download success
-[2024-02-26 15:27:55.984]	   "tmux-resurrect" download success
-[2024-02-26 15:27:55.995]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/update_plugins all
-[2024-02-26 15:27:56.011]	 Updating all plugins!
-[2024-02-26 15:27:56.011]	 
-[2024-02-26 15:27:56.772]	   "nord-tmux" update success
-[2024-02-26 15:27:56.775]	     | Already up to date.
-[2024-02-26 15:27:56.789]	   "tmux-prefix-highlight" update success
-[2024-02-26 15:27:56.791]	     | Already up to date.
-[2024-02-26 15:27:56.795]	   "tmux-resurrect" update success
-[2024-02-26 15:27:56.797]	     | Already up to date.
-[2024-02-26 15:27:56.802]	   "vim-tmux-navigator" update success
-[2024-02-26 15:27:56.804]	     | Already up to date.
-[2024-02-26 15:27:56.814]	   "tmux-cpu" update success
-[2024-02-26 15:27:56.814]	   "tmux-copycat" update success
-[2024-02-26 15:27:56.817]	     | Already up to date.
-[2024-02-26 15:27:56.817]	     | Already up to date.
-[2024-02-26 15:27:56.818]	   "tmux-continuum" update success
-[2024-02-26 15:27:56.820]	     | Already up to date.
-[2024-02-26 15:27:56.831]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2024-02-26 15:27:56.878]	 Done.
-
-[2024-02-26 15:28:16.808]	 List of discovered tpm plugins: arcticicestudio/nord-tmux tmux-plugins/tmux-prefix-highlight christoomey/vim-tmux-navigator tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
-[2024-02-26 15:28:16.819]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/install_plugins
-[2024-02-26 15:28:16.855]	 Already installed "nord-tmux"
-[2024-02-26 15:28:16.855]	 Already installed "tmux-prefix-highlight"
-[2024-02-26 15:28:16.855]	 Already installed "tmux-copycat"
-[2024-02-26 15:28:16.855]	 Already installed "vim-tmux-navigator"
-[2024-02-26 15:28:16.855]	 Already installed "tmux-cpu"
-[2024-02-26 15:28:16.856]	 Already installed "tmux-resurrect"
-[2024-02-26 15:28:16.856]	 Already installed "tmux-continuum"
-[2024-02-26 15:28:16.867]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/update_plugins all
-[2024-02-26 15:28:16.882]	 Updating all plugins!
-[2024-02-26 15:28:16.882]	 
-[2024-02-26 15:28:17.648]	   "tmux-prefix-highlight" update success
-[2024-02-26 15:28:17.650]	     | Already up to date.
-[2024-02-26 15:28:17.654]	   "nord-tmux" update success
-[2024-02-26 15:28:17.657]	     | Already up to date.
-[2024-02-26 15:28:17.660]	   "tmux-cpu" update success
-[2024-02-26 15:28:17.662]	   "tmux-resurrect" update success
-[2024-02-26 15:28:17.663]	     | Already up to date.
-[2024-02-26 15:28:17.665]	     | Already up to date.
-[2024-02-26 15:28:17.670]	   "tmux-copycat" update success
-[2024-02-26 15:28:17.672]	     | Already up to date.
-[2024-02-26 15:28:17.678]	   "vim-tmux-navigator" update success
-[2024-02-26 15:28:17.681]	     | Already up to date.
-[2024-02-26 15:28:17.703]	   "tmux-continuum" update success
-[2024-02-26 15:28:17.705]	     | Already up to date.
-[2024-02-26 15:28:17.716]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2024-02-26 15:28:17.763]	 Done.
-
-[2024-02-26 15:33:28.701]	 List of discovered tpm plugins: arcticicestudio/nord-tmux tmux-plugins/tmux-prefix-highlight christoomey/vim-tmux-navigator tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
-[2024-02-26 15:33:28.711]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/install_plugins
-[2024-02-26 15:33:28.743]	 Already installed "nord-tmux"
-[2024-02-26 15:33:28.743]	 Already installed "tmux-prefix-highlight"
-[2024-02-26 15:33:28.744]	 Already installed "vim-tmux-navigator"
-[2024-02-26 15:33:28.744]	 Already installed "tmux-copycat"
-[2024-02-26 15:33:28.744]	 Already installed "tmux-cpu"
-[2024-02-26 15:33:28.744]	 Already installed "tmux-resurrect"
-[2024-02-26 15:33:28.745]	 Already installed "tmux-continuum"
-[2024-02-26 15:33:28.756]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/update_plugins all
-[2024-02-26 15:33:28.770]	 Updating all plugins!
-[2024-02-26 15:33:28.770]	 
-[2024-02-26 15:33:29.542]	   "nord-tmux" update success
-[2024-02-26 15:33:29.542]	   "tmux-prefix-highlight" update success
-[2024-02-26 15:33:29.543]	   "tmux-copycat" update success
-[2024-02-26 15:33:29.544]	   "vim-tmux-navigator" update success
-[2024-02-26 15:33:29.545]	     | Already up to date.
-[2024-02-26 15:33:29.545]	     | Already up to date.
-[2024-02-26 15:33:29.546]	     | Already up to date.
-[2024-02-26 15:33:29.547]	     | Already up to date.
-[2024-02-26 15:33:29.548]	   "tmux-cpu" update success
-[2024-02-26 15:33:29.550]	     | Already up to date.
-[2024-02-26 15:33:29.567]	   "tmux-resurrect" update success
-[2024-02-26 15:33:29.569]	     | Already up to date.
-[2024-02-26 15:33:29.581]	   "tmux-continuum" update success
-[2024-02-26 15:33:29.583]	     | Already up to date.
-[2024-02-26 15:33:29.594]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2024-02-26 15:33:29.641]	 Done.
-
-[2024-02-26 15:33:58.084]	 List of discovered tpm plugins: arcticicestudio/nord-tmux tmux-plugins/tmux-prefix-highlight christoomey/vim-tmux-navigator tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
-[2024-02-26 15:33:58.096]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/install_plugins
-[2024-02-26 15:33:58.128]	 Already installed "tmux-prefix-highlight"
-[2024-02-26 15:33:58.128]	 Already installed "nord-tmux"
-[2024-02-26 15:33:58.128]	 Already installed "vim-tmux-navigator"
-[2024-02-26 15:33:58.128]	 Already installed "tmux-copycat"
-[2024-02-26 15:33:58.129]	 Already installed "tmux-cpu"
-[2024-02-26 15:33:58.129]	 Already installed "tmux-resurrect"
-[2024-02-26 15:33:58.129]	 Already installed "tmux-continuum"
-[2024-02-26 15:33:58.141]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/update_plugins all
-[2024-02-26 15:33:58.155]	 Updating all plugins!
-[2024-02-26 15:33:58.155]	 
-[2024-02-26 15:33:58.923]	   "nord-tmux" update success
-[2024-02-26 15:33:58.924]	   "vim-tmux-navigator" update success
-[2024-02-26 15:33:58.926]	     | Already up to date.
-[2024-02-26 15:33:58.926]	     | Already up to date.
-[2024-02-26 15:33:58.932]	   "tmux-prefix-highlight" update success
-[2024-02-26 15:33:58.934]	     | Already up to date.
-[2024-02-26 15:33:58.936]	   "tmux-copycat" update success
-[2024-02-26 15:33:58.938]	     | Already up to date.
-[2024-02-26 15:33:58.945]	   "tmux-resurrect" update success
-[2024-02-26 15:33:58.947]	     | Already up to date.
-[2024-02-26 15:33:58.948]	   "tmux-continuum" update success
-[2024-02-26 15:33:58.950]	     | Already up to date.
-[2024-02-26 15:33:59.062]	   "tmux-cpu" update success
-[2024-02-26 15:33:59.065]	     | Already up to date.
-[2024-02-26 15:33:59.076]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/clean_plugins all
-[2024-02-26 15:33:59.122]	 Done.
+[2024-03-08 17:37:44.728]	 List of discovered tpm plugins: arcticicestudio/nord-tmux tmux-plugins/tmux-prefix-highlight christoomey/vim-tmux-navigator tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-03-08 17:37:44.738]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/install_plugins
+[2024-03-08 17:37:44.775]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/update_plugins all
+[2024-03-08 17:37:44.789]	 Updating all plugins!
+[2024-03-08 17:37:44.789]	 
+[2024-03-08 17:37:44.810]	 Invoking /home/hillton/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2024-03-08 17:37:44.837]	 Removing "nord-tmux"
+[2024-03-08 17:37:44.839]	   "nord-tmux" clean success
+[2024-03-08 17:37:44.840]	 Removing "tmux-continuum"
+[2024-03-08 17:37:44.842]	   "tmux-continuum" clean success
+[2024-03-08 17:37:44.843]	 Removing "tmux-copycat"
+[2024-03-08 17:37:44.845]	   "tmux-copycat" clean success
+[2024-03-08 17:37:44.847]	 Removing "tmux-cpu"
+[2024-03-08 17:37:44.849]	   "tmux-cpu" clean success
+[2024-03-08 17:37:44.850]	 Removing "tmux-prefix-highlight"
+[2024-03-08 17:37:44.852]	   "tmux-prefix-highlight" clean success
+[2024-03-08 17:37:44.853]	 Removing "tmux-resurrect"
+[2024-03-08 17:37:44.857]	   "tmux-resurrect" clean success
+[2024-03-08 17:37:44.859]	 Removing "vim-tmux-navigator"
+[2024-03-08 17:37:44.861]	   "vim-tmux-navigator" clean success
+[2024-03-08 17:37:44.872]	 Done.
 
