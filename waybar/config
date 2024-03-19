@@ -1,7 +1,7 @@
 {
 	"layer": "top",
 	"modules-left": ["hyprland/workspaces","hyprland/window"],
-	"modules-right": ["tray","custom/notification","pulseaudio","cpu","memory","clock","idle_inhibitor","custom/power"],
+	"modules-right": ["tray","custom/notification","backlight","pulseaudio","cpu","memory","clock","idle_inhibitor","custom/power"],
 	
 	"pulseaudio": {
 		"tooltip": false,
@@ -23,8 +23,8 @@
 		"tooltip": false,
 		"format": " {}%",
 		"interval":1,
-        "on-scroll-up": "light -A 5",
-		"on-scroll-down": "light -U 5"
+    "on-scroll-up": "exec light -A 5",
+		"on-scroll-down": "exec light -U 5"
 	},
 	"tray":{
 		"icon-size":18,
